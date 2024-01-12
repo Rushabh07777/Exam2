@@ -1,0 +1,66 @@
+.main{
+    background-image: url("./background.jpeg");
+    height: 600px;
+    width: 1500px;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    
+}
+.hello{
+    backdrop-filter: blur(2px);
+    border: 2px solid white;
+    height: 400px;
+    width: 317px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-left: 180px;
+    justify-content: center;
+    background-attachment: fixed;
+    overflow: auto;
+    position: sticky;
+    top: 0px;
+}
+.hello::-webkit-scrollbar {
+    width: 0px;             
+  }
+p{
+    @font-face 
+        font-family: 'Montserrat';
+        src: url('Montserrat-Bold.woff2') format('woff2'),
+            url('Montserrat-Bold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+        color: white;
+        font-size:15px;
+        text-align: center;
+        padding-left: 15px;
+        margin-top: 50px;
+}
+
+button{
+    margin-left: 80px;
+    background-color:orange;
+    border-radius: 5px;
+  
+}
+.hello:hover{
+    background-color: black;
+}
+h1{
+    color: white;
+    padding-left: 10px;
+}
+.hi:hover{
+   background-color: white; 
+  
+}
+.hi{
+    margin-left: 251px;
+    position: sticky;
+    top: 0px;
+}
+img{
+    position: sticky;
+    top: 21px;
+}
